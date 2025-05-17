@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "1234"
+    }
+  ],
+  "cattle": [
+    {
+      "id": 1,
+      "breed": "Angus",
+      "weight": 1200,
+      "price": 2500,
+      "status": "sold",
+      "image": "images/cow-1.jpeg"
+    },
+    {
+      "id": 2,
+      "breed": "Hereford",
+      "weight": 1100,
+      "price": 2300,
+      "status": "available",
+      "image": "images/cow-2.jpeg"
+    },
+    {
+      "id": 1747468874214,
+      "breed": "bangla-cow",
+      "weight": 200,
+      "price": 15000,
+      "status": "available",
+      "image": "images/cow1.png"
+    },
+    {
+      "id": 1747469378583,
+      "breed": "goat",
+      "weight": 30,
+      "price": 25000,
+      "status": "available",
+      "image": "images/goat-1.webp"
+    }
+  ]
+}
