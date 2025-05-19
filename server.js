@@ -7,6 +7,7 @@ const SECRET_KEY = "SECRET_KEY";
 const path = require("path");
 const express = require("express");
 const fileUpload = require("express-fileupload");
+const cors = require("cors");
 
 server.use("/images", (req, res, next) => {
   express.static(path.join(__dirname, "public"))(req, res, next);
@@ -140,6 +141,7 @@ server.patch("/cattle/:id", (req, res) => {
 });
 
 server.use(router);
+server.use(cors());
 
 const PORT = 3000;
 server.listen(PORT, () => {
